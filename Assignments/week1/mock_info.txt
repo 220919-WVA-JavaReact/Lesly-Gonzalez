@@ -1,0 +1,18 @@
+#!/bin/bash #obtain and store user info
+
+#input variables
+
+read fname lname email $uname $passw 
+
+
+#variable of information
+info=$fname,$lname,$email,$uname,$passw
+
+#return information
+grep "$info" mock_data.csv
+
+
+#store users info
+echo "$info" >> mock_data.csv
+
+
