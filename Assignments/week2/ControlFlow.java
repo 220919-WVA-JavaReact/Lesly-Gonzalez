@@ -3,7 +3,7 @@ public class ControlFlow{
 	public static void main(String[] args){
    		 int[] intArr = {4, 3, 5};
     		int[] intArr1 = {1, 3, 5, 6};
-    		/* System.out.println("Here are some test cases, feel free to write more:");
+    		 System.out.println("Here are some test cases, feel free to write more:");
     		System.out.println("--------------------------------------------------");
    		System.out.println("Sum:");
     		System.out.println("Expected value: 12  |   Actual: " + sum(intArr));
@@ -48,7 +48,7 @@ public class ControlFlow{
    
    }
 
-	/*
+	
  	This method should return the sum of all of the element of an array of integer.
  	*/
 	public static int sum(int[] intArr){
@@ -69,7 +69,7 @@ public class ControlFlow{
    		 // logic
     
     		return 
-   		 word.repeat(team);
+   		 word.repeat(times);
 
 	}
 
@@ -80,11 +80,11 @@ public class ControlFlow{
     
    	 // logic
     
-    		if(s.length % 2 == 0){
+    		if(s.length() % 2 == 0){
     
     		return true;
    		 } 
-  	  else {
+  	      else {
     		return false;
     		}
  	}
@@ -109,6 +109,7 @@ public class ControlFlow{
 
   	sorting = Arrays.sort(intArr);
        for (int num : arr) {
+       
         }
     return new int []  ;
 	}    
