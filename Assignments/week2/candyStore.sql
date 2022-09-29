@@ -78,5 +78,5 @@ from inventory
 left join employees on employees.favorite_candy = inventory.inventory_id;
 
 
---What is the total cost to purchase all remaining M&Ms in your store?
---select price count(price) from inventory as "total" where inventory_id = 9007;
+
+
