@@ -96,8 +96,17 @@ public class ControlFlow{
 	public static int[] transformIntArr(int[] intArr){
     
     // logic
+    
+   		int arr = 0;
+	    for (int i = 0; i <intArr.length; i++) {  
+	       if(intArr[i] % 3 == 0){
+	    	   
+	        arr = intArr[i] * 2;
+	        intArr[i] = arr;
+	        }
+	     }
 
-    return new int[5];
+	    return intArr;
 	}
 
 	/*
