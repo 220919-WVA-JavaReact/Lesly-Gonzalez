@@ -106,13 +106,21 @@ public class ControlFlow{
 	public static int[] orderArr(int[] intArr){
     
   	  // logic
-
-  	sorting = Arrays.sort(intArr);
-       for (int num : arr) {
-       
-        }
-    return new int []  ;
-	}    
+     
+  	int numSwitch = 0;
+	for (int i = 0; i <intArr.length; i++) {     
+	for (int j = i+1; j <intArr.length; j++) {     
+	if(intArr[i] >intArr[j]) {     
+	 //swap elements if not in order
+		 numSwitch = intArr[i];    
+		 intArr[i] = intArr[j];    
+		intArr[j] = numSwitch;    
+	}     
+	 }     
+	   }    
+					 
+	return intArr;
+	}  
 
 
 }
