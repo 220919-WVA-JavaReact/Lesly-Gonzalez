@@ -7,24 +7,32 @@ public class Cal {
 
 
     public static void main(String[] args) {
-
+      //Using Scanner method to start an input prompt
         Scanner input = new Scanner(System.in);
+        
+       //Assign a variable that equals true for while loop to run
         boolean go_again = true;
+        
+        //Welcome users 
         System.out.println("Hello! Welcome to MyCalculator App");
+        
+        //Beginning of While Loop and input prompts
         while (go_again) {
-        //Prompt guest
-
+        
+         //Choosing equation
         System.out.println("Please select 'add' for addition, 'sub' for subtraction," + "\n"
-                + "'multiply' for multiplication and 'divide' for division "
-        );
+                + "'multiply' for multiplication and 'divide' for division ");
         String symbol = input.nextLine();
+            
+          //First number  
         System.out.print("Then enter you first number.  \n ");
-
         double num1 = input.nextDouble();
+            
+           // Second number
         System.out.println("Finally your last number.");
-
         double num2 = input.nextDouble();
-
+        
+            //If statement for input response
             if (symbol.equals("add")) {
                 double adding = num1 + num2;
                 System.out.println("Your equation:  \n" + num1 + " + " + num2 + " = " + adding + "\n");
