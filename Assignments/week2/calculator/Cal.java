@@ -1,6 +1,5 @@
 package com.revature.calculator;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Cal {
@@ -21,7 +20,7 @@ public class Cal {
         
          //Choosing equation
         System.out.println("Please select 'add' for addition, 'sub' for subtraction," + "\n"
-                + "'multiply' for multiplication and 'divide' for division ");
+                + "'multiply' for multiplication and 'divide' for division & quit to quit! ");
         String symbol = input.nextLine();
             
           //First number  
