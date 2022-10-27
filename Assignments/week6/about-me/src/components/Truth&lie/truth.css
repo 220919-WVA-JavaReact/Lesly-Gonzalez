@@ -1,0 +1,14 @@
+
+  ul{
+    list-style: none;
+    font-size: 19px;
+  }
+
+  #answer{
+    font-size: 30px;
+    color: white;
+  }
+
+  #answer:hover{
+    color: gray
+  }

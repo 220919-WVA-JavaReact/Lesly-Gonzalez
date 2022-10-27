@@ -1,0 +1,10 @@
+.font{
+    color:  gray;
+    font-family:cursive;
+    text-align:  center;
+}
+header{
+    text-align:  center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
